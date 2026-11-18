@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 const topics = [
   { id: 'foundation', name: 'Cloud foundations', label: '01 — THE BASE LAYER', title: 'Know what you’re managing.', copy: 'Cloud infrastructure spans compute, storage, networking, identity, and managed services across public and private environments. Start with how these building blocks connect, then learn how hybrid and multi-cloud platforms give teams one place to provision and govern them.', tools: ['HYBRID CLOUD', 'VIRTUALIZATION', 'NETWORKING', 'IDENTITY'], question: 'How do teams get a consistent view of resources across environments?' },
